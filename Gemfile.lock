@@ -71,6 +71,7 @@ GEM
     factory_girl_rails (4.5.0)
       factory_girl (~> 4.5.0)
       railties (>= 3.0.0)
+    ffaker (2.1.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     hirb (0.7.3)
@@ -196,11 +197,12 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   database_cleaner
   factory_girl_rails
+  ffaker
   hirb
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.2.4)
-  rspec-rails (~> 3.0.0)
+  rspec-rails (~> 3.0)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   slim-rails
